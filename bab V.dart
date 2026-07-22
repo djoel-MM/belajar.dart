@@ -29,4 +29,28 @@ void main() {
     idmart.remove('A001');
     print(idmart);
 
+
+    void main() {
+  Map<String, String> dataGuru = {
+    'nip': '198503152010011002',
+    'nama': 'Budi Santoso, S.Kom.',
+    'mapel': 'Pemrograman Bergerak',
+    'kota': 'Bandung'
+  };
+
+  print('Nama Guru: ${dataGuru['nama']}'); 
+
+  print('Keys: ${dataGuru.keys}'); 
+
+  print('Values: ${dataGuru.values}'); 
+
+  dataGuru['email'] = 'budi.santoso@sekolah.sch.id';
+  print('Setelah tambah email:');
+  print(dataGuru);
+
+  dataGuru['kota'] = 'Jakarta';
+  print('Setelah ubah kota:');
+  print(dataGuru);
+}
+
 }
