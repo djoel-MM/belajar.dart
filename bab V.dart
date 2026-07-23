@@ -17,7 +17,7 @@ void main() {
   namaBuah.remove('apel');
   print(namaBuah);
 
-    //(-- pengerjaan sub materi 4.2 --)//
+    //(-- pengerjaan sub materi 5.2 --)//
 
     Set<String> idmart = {'A001', 'A002', 'A003', 'A004', 'A001'};
 
@@ -29,8 +29,8 @@ void main() {
     idmart.remove('A001');
     print(idmart);
 
+    //(-- pengerjaan sub materi 5.3 --)//
 
-    void main() {
   Map<String, String> dataGuru = {
     'nip': '198503152010011002',
     'nama': 'Budi Santoso, S.Kom.',
@@ -53,4 +53,4 @@ void main() {
   print(dataGuru);
 }
 
-}
+
